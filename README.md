@@ -2,14 +2,14 @@
 
 ### Table of Contents
 
-1. [Business Understanding](#BusinessUnderstanding)
+1. [BusinessUnderstanding](#BusinessUnderstanding)
 2. [Data Understanding](#DataUnderstanding)
 3. [Preparing Data](#PreparingData)
 4. [Data Modeling ](#DataModeling)
 5. [Results](#Results)
 
 
-## Business Understanding <a name="BusinessUnderstanding"></a>
+## BusinessUnderstanding <a name="BusinessUnderstanding"></a>
 
 In this project we are interested in answering questions regarding the airbnb business. A few of the questions we want to answer are: What we can do to have more customers, How are the trends for people visiting our city?, What influences people to travel more during an specific time?. Are prices a factor on losing businesses with people?, among many others.
 
