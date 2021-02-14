@@ -2,10 +2,10 @@
 
 ### Table of Contents
 
-1. [Business_Understanding](#Business_Understanding)
-2. [Data_Understanding](#Data_Understanding)
-3. [Preparing_Data](#Preparing_Data)
-4. [Data_Modeling ](#Data_Modeling)
+1. [BusinessUnderstanding](#BusinessUnderstanding)
+2. [DataUnderstanding](#DataUnderstanding)
+3. [PreparingData](#PreparingData)
+4. [DataModeling ](#DataModeling)
 5. [Results](#Results)
 
 
