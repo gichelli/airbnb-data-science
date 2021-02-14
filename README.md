@@ -20,8 +20,8 @@ In order to answer these questions we must have a better understanding of the da
 
 We will prepare the data next and start to visualize some feedback with the help of Data Modeling techniques. Next(insert link)
 
-## PreparingData < a name="PreparingData"></a>
+## PreparingData <a name="PreparingData"></a>
 
-## DataModeling < a name="DataModeling "></a>
+## DataModeling <a name="DataModeling "></a>
 
-## Results < a name="Results"></a>
+## Results <a name="Results"></a>
