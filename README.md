@@ -18,10 +18,13 @@ Possible questions: -Is there a relationship between ratings and price? -Are goo
 ## DataUnderstanding <a name="DataUnderstanding"></a>
 In order to answer these questions we must have a better understanding of the data we have access to. For this we use open source data that is available to us on the internet in Kagle website. In this site we found data that is related to Airbnb businesses located in Boston City. Looking at a listing.csv file, we can see data columns such as price, bathrooms, bedrooms, minimum_nights, 'maximum_nights', among many others. So far this would be a good starting point to try to answer a few questions.
 
-We will prepare the data next and start to visualize some feedback with the help of Data Modeling techniques. Next(insert link)
+We will prepare the data next to be able to start to visualizing  with the help of Data Modeling techniques. 
 
 ## PreparingData <a name="PreparingData"></a>
+We are working with to sets of data, Boston and Seattle.
 
 ## DataModeling <a name="DataModeling "></a>
+We do this to see how well our model fits.
 
 ## Results <a name="Results"></a>
+The main findings of the code can be found at the post available [here](https://gichellivento.medium.com/i-used-a-simple-data-file-to-get-my-boston-apartment-in-airbnb-943669d49e78).
