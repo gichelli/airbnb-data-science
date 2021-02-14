@@ -2,6 +2,8 @@
 
 ### Table of Contents
 
+This project follows the CRISP-DM Process (Cross Industry Process for Data Mining)
+
 1. [BusinessUnderstanding](#BusinessUnderstanding)
 2. [DataUnderstanding](#DataUnderstanding)
 3. [PreparingData](#PreparingData)
