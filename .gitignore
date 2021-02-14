@@ -1,2 +1,7 @@
 
 blog/
+.ipynb_checkpoints
+__pycache__
+p1-key-steps.docx
+questions.docx
+p1-specs.docx
