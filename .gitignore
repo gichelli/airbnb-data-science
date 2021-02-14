@@ -1,7 +1,8 @@
+.DS_Store
 .ipynb_checkpoints
 blog/
-.ipynb_checkpoints
-__pycache__
+p1/.ipynb_checkpoints
+p1/__pycache__
 p1-key-steps.docx
 questions.docx
 p1-specs.docx
