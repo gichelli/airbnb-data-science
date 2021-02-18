@@ -2,6 +2,14 @@
 
 ### Table of Contents
 
+- [Installation](#Installation)
+- [FilesDescription](#FilesDescription)
+- [Acknowledgements](#Acknowledgements)
+
+## Installation <a name="Installation"></a>
+Anaconda Distribution of Python it is all is needed to run this project.
+
+
 This project follows the CRISP-DM Process (Cross Industry Process for Data Mining)
 
 1. [BusinessUnderstanding](#BusinessUnderstanding)
@@ -30,3 +38,10 @@ We do this to see how well our model fits.
 
 ## Results <a name="Results"></a>
 The main findings of the code can be found at the post available [here](https://gichellivento.medium.com/i-used-a-simple-data-file-to-get-my-boston-apartment-in-airbnb-943669d49e78).
+
+ ## FilesDescription <a name="FilesDescription"></a>
+
+ - There is only one notebook that was used to work on this project: prepare_data.ipynb -> This notebook was used to prepare, analyze and visualize the data.
+ 
+ ## Acknowledgements <a name="Acknowledgements"></a>
+ We have our data from internet. We are going to use Seattle AirBnB csv files that we found in [Kaggle](https://www.kaggle.com/airbnb/seattle?select=reviews.csv).
