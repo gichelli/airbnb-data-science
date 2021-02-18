@@ -41,7 +41,7 @@ The main findings of the code can be found at the post available [here](https://
 
  ## FilesDescription <a name="FilesDescription"></a>
 
- - There is only one notebook that was used to work on this project: prepare_data.ipynb -> This notebook was used to prepare, analyze and visualize the data.
+ There is only one notebook that was used to work on this project: prepare_data.ipynb -> This notebook was used to prepare, analyze and visualize the data.
  
  ## Acknowledgements <a name="Acknowledgements"></a>
  We have our data from internet. We are going to use Seattle AirBnB csv files that we found in [Kaggle](https://www.kaggle.com/airbnb/seattle?select=reviews.csv).
