@@ -1,72 +1,47 @@
+# airbnb-data-science
 
-Project:
-Write A Data Science Blog Post
- 1. Project Overview
- 2. Project Motivation and Details
- 3. Project: Write A Data Science Blog Post
-Mentor Help
-Ask a mentor on our Q&A platform
-Project Motivation and Details
-Data
-For this project, you will pick a dataset. Inspired by Robert, there are a few public datasets from AirBnB available below, but you may also choose a dataset similar to what was used in the lessons, or an entirely different dataset. Using your dataset, you will choose 3 questions you aspire to answer from the data.
+### Table of Contents
 
-Stack Overflow Data - 2017 Survey
-You might have different questions about the 2017 StackOverflow survey data than I looked at earlier in the course. If you choose this dataset, you can not use the same questions that were analyzed earlier in the classroom.
+- [Installation](#Installation)
+- [FilesDescription](#FilesDescription)
+- [Acknowledgements](#Acknowledgements)
 
-Alternatively, if you felt pretty confident with the techniques in this lesson, you might be looking to push the envelope. In this case, you may choose to retrieve all of the Stack Overflow Survey - Multiple Years results. From this data, you could analyze trends over time. What languages were most popular in each year? What other changes can you observe over time?
+## Installation <a name="Installation"></a>
+Anaconda Distribution of Python it is all is needed to run this project.
 
-Seattle AirBNB Data
-The Seattle AirBnB homes data can be used at the above link. You might pair this with the Boston AirBnB data, which can be found at the link below.
 
-Boston AirBNB Data
-If you are looking to really challenge yourself, data from Seattle and Boston AirBNB homes can be used to understand how much AirBNB homes are earning in certain time frames and areas. You can compare rates between the two cities, or try to understand if there is anything about the properties that helps you predict price. Can you find negative and positive reviews based on text? This dataset requires a number of skills beyond those shown thus far in the course, but if you would like a challenge, this will certainly test your ability to work with messy, real world data.
+This project follows the CRISP-DM Process (Cross Industry Process for Data Mining)
 
-You can find additional AirBnB data at the link here.
+1. [BusinessUnderstanding](#BusinessUnderstanding)
+2. [DataUnderstanding](#DataUnderstanding)
+3. [PreparingData](#PreparingData)
+4. [DataModeling ](#DataModeling)
+5. [Results](#Results)
 
-Choose A Dataset of Your Own
-You are welcome to use Kaggle or another platform (or your own data) to create a blog and Github post instead of using the datasets discussed above.
 
-Key Steps for Project
-Feel free to be creative with your solutions, but do follow the CRISP-DM process in finding your solutions.
+## BusinessUnderstanding <a name="BusinessUnderstanding"></a>
 
-1) Pick a dataset.
+In this project we are interested in answering questions regarding the airbnb business. A few of the questions we want to answer are: What we can do to have more customers, How are the trends for people visiting our city?, What influences people to travel more during an specific time?. Are prices a factor on losing businesses with people?, among many others.
 
-2) Pose at least three questions related to business or real-world applications of how the data could be used.
+Possible questions: -Is there a relationship between ratings and price? -Are good reviews associated directly to higher price?
 
-3) Create a Jupyter Notebook, using any associated packages you'd like, to:
+## DataUnderstanding <a name="DataUnderstanding"></a>
+In order to answer these questions we must have a better understanding of the data we have access to. For this we use open source data that is available to us on the internet in Kagle website. In this site we found data that is related to Airbnb businesses located in Boston City. Looking at a listing.csv file, we can see data columns such as price, bathrooms, bedrooms, minimum_nights, 'maximum_nights', among many others. So far this would be a good starting point to try to answer a few questions.
 
-Prepare data:
+We will prepare the data next to be able to start to visualizing  with the help of Data Modeling techniques. 
 
-Gather necessary data to answer your questions
-Handle categorical and missing data
-Provide insight into the methods you chose and why you chose them
-Analyze, Model, and Visualize
+## PreparingData <a name="PreparingData"></a>
+We are working with to sets of data, Boston and Seattle.
 
-Provide a clear connection between your business questions and how the data answers them.
-4) Communicate your business insights:
+## DataModeling <a name="DataModeling "></a>
+We do this to see how well our model fits.
 
-Create a Github repository to share your code and data wrangling/modeling techniques, with a technical audience in mind
-Create a blog post to share your questions and insights with a non-technical audience
-Your deliverables will be a Github repo and a blog post. Use the rubric here to assist in successfully completing this project!
+## Results <a name="Results"></a>
+The main findings of the code can be found at the post available [here](https://gichellivento.medium.com/i-used-a-simple-data-file-to-get-my-boston-apartment-in-airbnb-943669d49e78).
 
-----------------
-Blog Post
+ ## FilesDescription <a name="FilesDescription"></a>
 
-CRITERIA
-MEETS SPECIFICATIONS
-Communicate their findings with stakeholders.
-
-Student must have a blog post on a platform of their own choice (can be on their website, a Medium post or Github blog post). Student must communicate their results clearly. The post should not dive into technical details or difficulties of the analysis - this should be saved for Github. The post should be understandable for non-technical people from many fields.
------
-There should be an intriguing title and image related to the project.
-
-Student must have a title and image to draw readers to their post.
-----
-The body of the post has paragraphs that are broken up by appropriate white space and images.
-
-There are no long, ongoing blocks of text without line breaks or images for separation anywhere in the post.
------
-Each question has a clearly communicated solution.
-
-Each question is answered with a clear visual, table, or statistic that provides how the data supports or disagrees with some hypothesis that could be formed by each question of interest.
-----
+ - There is only one notebook that was used to work on this project: prepare_data.ipynb -> This notebook was used to prepare, analyze and visualize the data.
+ 
+ ## Acknowledgements <a name="Acknowledgements"></a>
+ We have our data from internet. We are going to use Seattle AirBnB csv files that we found in [Kaggle](https://www.kaggle.com/airbnb/seattle?select=reviews.csv).
